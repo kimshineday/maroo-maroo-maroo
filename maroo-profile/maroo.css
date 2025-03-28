@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Ownglyph_ParkDaHyun';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'NanumSquareRound';
+    font-size: 25px;
+}
+
+#everything {
+    min-width: 1200px !important;
+}
+
+#name {
+    font-family: 'Ownglyph_ParkDaHyun';
+    font-size: 100px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    margin: 0% 15% 5%;
+}
+
+img {
+    margin-right: 10%;
+    width: 300px;
+    border: 5px solid ;
+}
+
+#profile {
+    margin-left: 10%;
+    margin-top: 0% ;
+    float: right ;
+    border-style: dashed;
+    border-radius: 10% ;
+    width: 400px ;
+}
+
+.maroo {
+    font-family: 'Ownglyph_ParkDaHyun';
+    font-size: 42px;
+}
+
+#profile-title {
+    text-align: center;
+    font-family: 'Ownglyph_ParkDaHyun';
+    font-size: 60px;
+    margin-top: 5% ;
+    margin-bottom: 5%;
+}
+
+
+.profile {
+    font-size: 38px;
+    line-height: 58px;
+    padding-top: 0% ;
+    margin-top: 0% ;
+    margin-left: 30px;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Ownglyph_ParkDaHyun';
+    font-size: 60px;
+    margin: 0%;
+}
+
+p.text {
+    text-align: center;
+    line-height: 40px;
+    margin: 3% auto 1%;
+}
+
